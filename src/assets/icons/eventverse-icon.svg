@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56" fill="none">
+  <defs>
+    <linearGradient id="ev-stone-grad" x1="4" y1="4" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="ev-accent-glow" x1="16" y1="16" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E7E5E4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="48" height="48" rx="12" fill="url(#ev-stone-grad)"/>
+  <circle cx="4" cy="28" r="3.5" fill="#FAFAF9"/>
+
+  <path d="M19 18.5C19 18.5 28.5 15.5 34.5 19.5C39.5 22.8 39.5 33.2 34.5 36.5C28.5 40.5 19 37.5 19 37.5"
+        stroke="url(#ev-accent-glow)"
+        stroke-width="2.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <circle cx="27.5" cy="28" r="2.4" fill="#E7E5E4"/>
+  <path d="M19 28H32" stroke="#FAFAF9" stroke-width="2.8" stroke-linecap="round"/>
+</svg>
